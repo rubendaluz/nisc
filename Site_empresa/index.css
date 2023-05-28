@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Inconsolata:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inconsolata", monospace;
+}
+
+p,
+li {
+  font-size: 15pt;
+}
+
+h1 {
+  font-size: 25pt;
+  font-weight: bolder;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: #fff;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-evenly;
+  /* border-bottom: 1.5px solid #fff; */
+  width: 95%;
+  margin: auto;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  color: #fff;
+  position: absolute;
+}
+.menu ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+.menu {
+  margin: auto;
+}
+
+main {
+  padding: 20px;
+}
+
+li {
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+}
+
+a:hover {
+  color: #bbb9b9;
+  border-bottom: 1px solid #fff;
+}
+
+.perfil_empresa {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.perfil_empresa .texto {
+  margin: auto;
+  max-width: 50vw;
+  padding: 20px;
+  text-align: left;
+  color: #fff;
+}
+
+h2 {
+  color: #fff;
+  margin: auto auto 10px;
+}
+
+.perfil_empresa .imagem {
+  margin: auto;
+}
+
+.perfil_empresa .imagem img {
+  max-width: 70%;
+  margin: auto auto auto 10vw;
+}
+
+.servicos {
+  height: 100vh;
+  background-color: #000;
+  color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.logo {
+  margin: auto;
+  text-align: right;
+}
+
+.logo h1 {
+  margin: 25px auto;
+}
+
+.lista_servicos {
+  margin: auto;
+  max-width: 80%;
+}
+
+.lista_servicos .servico {
+  display: flex;
+  flex-direction: row;
+}
+
+.servico {
+  padding: 10px;
+}
+
+.numero {
+  margin-right: 10px;
+}
+.texto {
+  display: flex;
+  flex-direction: column;
+}
+
+.numero {
+  color: #bbb9b9;
+}
+
+#logo {
+  max-height: 50%;
+}
+
+.contacto {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.corpo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: auto;
+}
+
+.corpo img {
+  max-width: 50vw;
+}
+
+.content {
+  text-align: left;
+  padding: 50px;
+  margin: auto 20%;
+}
+
+.content h3 {
+  color: #bbb9b9;
+  margin: 10px;
+}
+
+.content p {
+  margin: 10px;
+}
+
+footer {
+  width: 95%;
+  margin: auto;
+  border-top: 1.5px solid #fff;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
